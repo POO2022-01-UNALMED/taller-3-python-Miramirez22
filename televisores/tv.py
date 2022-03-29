@@ -37,7 +37,7 @@ class TV:
     def setVolumen(self,numero):
         if(self._estado == True and 0 <= numero and numero <= 7):
             self._volumen = numero 
-            
+
     def getVolumen(self):
         return self._volumen
     
@@ -58,6 +58,9 @@ class TV:
     
     def setControl(self,control):
         self._control = control
+    
+    def getControl(self):
+        return self._control
     
     def setPrecio(self,precio):
         self._precio = precio
